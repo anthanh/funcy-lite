@@ -16,7 +16,6 @@ module.exports = function (grunt) {
 
       options: {
         port: 9000,
-        open: false,
         livereload: 35729,
         keepalive: true,
         // Change this to '0.0.0.0' to access the server from outside
@@ -25,13 +24,7 @@ module.exports = function (grunt) {
 
       livereload: {
         options: {
-          middleware: function(connect) {
-            return [
-              connect.static('.tmp'),
-              connect().use('/bower_components', connect.static('./bower_components')),
-              connect.static('app')
-            ];
-          }
+          base: ['app']
         }
       }
 
