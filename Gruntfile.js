@@ -91,7 +91,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     keepalive: false,
-                    base: ['app']
+                    base: ['bower_components', 'app']
                 }
             },
 
