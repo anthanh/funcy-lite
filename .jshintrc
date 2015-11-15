@@ -18,9 +18,10 @@
     "trailing": true,
     "smarttabs": true,
     "jquery": true,
-    "globals": [
-        "console",
-        "_",
-        "alert"
-    ]
+    "globals": {
+        "$": true,
+        "console": true,
+        "_": true,
+        "alert": true
+    }
 }
