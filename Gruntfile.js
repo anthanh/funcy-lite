@@ -99,6 +99,12 @@ module.exports = function(grunt) {
                 options: {
                     base: ['dist']
                 }
+            },
+
+            test: {
+                options: {
+                    base: ['bower_components', 'app/scripts', 'test']
+                }
             }
 
         }
@@ -108,6 +114,8 @@ module.exports = function(grunt) {
     grunt.registerTask('serve', 'start the server and preview your app', ['connect:livereload', 'watch']);
 
     grunt.registerTask('serve:dist', 'start the server and preview your app', ['build', 'connect:dist']);
+
+    grunt.registerTask('serve:test', ['connect:test']);
 
     grunt.registerTask('build', [
         'clean',

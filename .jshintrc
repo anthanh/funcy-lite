@@ -17,8 +17,12 @@
     "strict": true,
     "trailing": true,
     "smarttabs": true,
+    "mocha": true,
     "jquery": true,
     "globals": {
+        "browser": true,
+        "element": true,
+        "by": true,
         "$": true,
         "console": true,
         "_": true,
