@@ -1,12 +1,19 @@
 {
-    "name": "funcy-lite",
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-connect": "^0.8.0",
-        "load-grunt-tasks": "^0.4.0",
-        "time-grunt": "^0.4.0"
-    },
-    "engines": {
-        "node": "~4.1.1"
-    }
+  "name": "funcy-lite",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-usemin": "^3.1.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.4.0"
+  },
+  "engines": {
+    "node": "~4.1.1"
+  }
 }
